@@ -6,11 +6,12 @@ const AuthContext = createContext();
 
 const AuthProvider = ({children}) => {
 
+
+
+
     const authInfo = {
         name: 'Mazharul Islam'
     }
-
-
 
     return (
         <AuthContext.Provider value={authInfo}>
